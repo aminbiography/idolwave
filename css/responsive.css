@@ -1,0 +1,276 @@
+/*
+//////////////////////////////////////////////////////
+final author start
+//////////////////////////////////////////////////////
+Final Author @ Mohammad Aminul Islam
+//////////////////////////////////////////////////////
+final author end
+//////////////////////////////////////////////////////
+*/
+
+
+
+/* desktop layout */
+.market-menu-area{
+	display:block;
+}
+.market-mobile-menu{
+	display:none;
+}
+.header-logo{
+	display:block;
+}
+
+
+/* tablet layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.market-menu-area{
+	display:block;
+	text-align:left;
+}
+.market-mobile-menu{
+	display:none;
+}
+.mobile-nav{
+	display:none;
+}
+.mean-container .mean-bar {
+  display: none;
+}
+.market-menu-area ul li {
+  display: inline-block;
+  padding-left: 16px;
+  position: relative;
+}
+.header-logo img{
+	display:block;
+}
+.banner-section {
+  height: auto;
+  padding-bottom: 90px;
+}
+.blog-banner {
+  height: auto;
+  padding-bottom: 90px;
+}
+.banner-text {
+  margin-top: 200px;
+}
+.animated-header-text {
+  margin-top: 250px;
+}
+.youtube-bg {
+  height: 85vh;
+  z-index: 10;
+}
+.animated-header-text h1.cd-headline {
+  font-size: 45px !important;
+}
+.work-img img {
+  border: 10px solid #448aff;
+  float: none;
+  padding: 15px;
+  width: 100%;
+  margin-top:30px;
+}
+.reviews-content {
+  font-size: 14px;
+}
+.team-item.circle {
+  margin-bottom: 40px;
+}
+.counter-section {
+  height: auto;
+  padding-bottom: 65px;
+  padding-top: 90px;
+}
+.contact-wrapper {
+  margin-left: 0;
+}
+.footer-section {
+  height: auto;
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+
+}
+
+/* mobile layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.market-menu-area{
+	display:none;
+}
+.market-mobile-menu{
+	display:block;
+}
+.header-logo{
+	display:none;
+}
+.mean-bar img{
+	padding-left:5px;
+	padding-top:5px;
+}
+.mean-container .mean-bar {
+  position: fixed !important;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+  padding: 5px 12px !important;
+}
+.banner-section {
+  height: auto;
+  padding-bottom: 90px;
+}
+.blog-banner {
+  height: auto;
+  padding-bottom: 90px;
+}
+.banner-text {
+  margin-top: 200px;
+}
+.animated-header-text {
+  margin-top: 250px;
+}
+.banner-btn {
+  padding: 17px 46px;
+  margin-bottom: 25px;
+}
+.youtube-bg {
+  height: 140vh;
+  z-index: 10;
+}
+.banner-text h1 {
+  font-size: 40px;
+}
+.banner-text p {
+  font-size: 17px;
+}
+.animated-header-text h1.cd-headline {
+  font-size: 33px !important;
+  text-transform: lowercase;
+}
+.about-text{
+	padding-top:50px;
+}
+.work-img img {
+  border: 10px solid #448aff;
+  float: none;
+  padding: 15px;
+  width: 100%;
+  margin-top:30px;
+}
+.reviews-content {
+  font-size: 14px;
+}
+.team-item.circle {
+  margin-bottom: 40px;
+}
+.item{
+	margin-bottom:30px;
+}
+.counter-section {
+  height: auto;
+  padding-bottom: 65px;
+  padding-top: 90px;
+}
+.contact-wrapper {
+  margin-left: 0;
+}
+.counter-column h3 {
+  padding-bottom: 30px;
+}
+.footer-list{
+	padding-top:30px;
+}
+.footer-section {
+  height: auto;
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+}
+
+/* wide mobile layout: */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.market-menu-area{
+	display:none;
+}
+.market-mobile-menu{
+	display:block;
+}
+.header-logo{
+	display:none;
+}
+.mean-container .mean-bar {
+  position: fixed !important;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+  padding: 5px 12px !important;
+}
+.banner-section {
+  height: auto;
+  padding-bottom: 90px;
+}
+.blog-banner {
+  height: auto;
+  padding-bottom: 90px;
+}
+.banner-text {
+  margin-top: 200px;
+}
+.animated-header-text {
+  margin-top: 250px;
+}
+.youtube-bg {
+  height: 180vh;
+  z-index: 10;
+}
+.banner-text h1 {
+  font-size: 40px;
+}
+.banner-text p {
+  font-size: 17px;
+}
+.animated-header-text h1.cd-headline {
+  font-size: 36px !important;
+}
+.about-text{
+	padding-top:50px;
+}
+.work-img img {
+  border: 10px solid #448aff;
+  float: none;
+  padding: 15px;
+  width: 100%;
+  margin-top:30px;
+}
+.reviews-content {
+  font-size: 14px;
+}
+.team-item.circle {
+  margin-bottom: 40px;
+}
+.item{
+	margin-bottom:30px;
+}
+.counter-section {
+  height: auto;
+  padding-bottom: 65px;
+  padding-top: 90px;
+}
+.contact-wrapper {
+  margin-left: 0;
+}
+.counter-column h3 {
+  padding-bottom: 30px;
+}
+.footer-list{
+	padding-top:30px;
+}
+.footer-section {
+  height: auto;
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+}

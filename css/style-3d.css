@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  width: 100%;
+  flex-wrap: wrap;
+}
+main .card {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #eefafb;
+}
+main .card .box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1s ease;
+}
+main .card:hover .box {
+  transform: rotateY(180deg);
+}
+main .card .imgBx {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+main .card .imgBx img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .card .contentBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #448aff;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+main .card .contentBox div {
+  transform-style: preserve-3d;
+  transform: translateZ(100px);
+  background: #f7941d;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+main .card .contentBox div h2 {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+main .card .contentBox div p {
+  font-size: 16px;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}/*# sourceMappingURL=styles.css.map */
