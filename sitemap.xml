@@ -11,7 +11,7 @@
     <url>
         <loc>https://idolwave.org/about.html</loc>
         <lastmod>2024-04-13</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Services page 01 -->
@@ -30,7 +30,7 @@
     </url>
     <!-- Services page 03 -->
     <url>
-        <loc>https://idolwave.org/onpage-seo.html</loc>
+        <loc>https://idolwave.org/on-page-seo.html</loc>
         <lastmod>2024-04-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -44,7 +44,7 @@
     </url>
     <!-- Services page 05 -->
     <url>
-        <loc>https://idolwave.org/offpage-seo.html</loc>
+        <loc>https://idolwave.org/off-page-seo.html</loc>
         <lastmod>2024-04-13</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -102,14 +102,14 @@
     <url>
         <loc>https://idolwave.org/contact.html</loc>
         <lastmod>2024-03-13</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <!-- Login page -->
     <url>
         <loc>https://idolwave.org/login.html</loc>
         <lastmod>2024-04-13</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.0</priority>
     </url>
 </urlset>
