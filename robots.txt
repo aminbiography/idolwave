@@ -1,9 +1,0 @@
-# robots.txt for https://idolwave.org/
-
-User-agent: *
-Disallow: /admin/
-Disallow: /login/
-Disallow: /backend/
-Disallow: /api/
-
-Sitemap: https://idolwave.org/sitemap.xml
