@@ -1,4 +1,4 @@
 Live URL:    https://aminbiography.github.io/idolwave/
 
 
-Wave URL:   https://idolwave.org/ 
+Web URL:   https://idolwave.org/ 
