@@ -23,3 +23,7 @@ final author end
     });
     
  
+    // Prevents text selection on the webpage by blocking the 'selectstart' event.
+    document.addEventListener('selectstart', function(e) {
+        e.preventDefault();
+      });

@@ -1,0 +1,109 @@
+/*
+//////////////////////////////////////////////////////
+final author start
+//////////////////////////////////////////////////////
+Final Author @ Mohammad Aminul Islam
+//////////////////////////////////////////////////////
+final author end
+//////////////////////////////////////////////////////
+*/
+
+
+/* calculator main body styling */
+.calculator-main-bg {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #eefafb;
+}
+
+/* calculator main styling */
+.calculator-main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* heading styling */
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* calculator grid styling */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* input and button styling */
+.calculator input, .calculator button {
+    padding: 15px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* button specific styling */
+.calculator button {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.calculator button:active {
+    background-color: #ddd;
+}
+
+.calculator button:focus {
+    outline: none;
+}
+
+/* output display styling */
+.output {
+    grid-column: span 4;
+    background-color: #e9e9e9;
+    text-align: right;
+}
+
+/* media queries for responsiveness */
+@media (max-width: 600px) {
+    .calculator-main {
+        padding: 15px;
+        max-width: 300px;
+    }
+
+    .calculator input, .calculator button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .calculator button, .calculator input {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .output {
+        grid-column: span 2;
+    }
+
+    .calculator button[style*="grid-column: span 4"] {
+        grid-column: span 2;
+    }
+}
+
+
+

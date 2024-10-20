@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home page -->
+    <url>
+        <loc>https://idolwave.org/</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- About page 01 -->
+    <url>
+        <loc>https://idolwave.org/about.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 01 -->
+    <url>
+        <loc>https://idolwave.org/web-development.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 02 -->
+    <url>
+        <loc>https://idolwave.org/kw-research.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 03 -->
+    <url>
+        <loc>https://idolwave.org/on-page-seo.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 04 -->
+    <url>
+        <loc>https://idolwave.org/technical-seo.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 05 -->
+    <url>
+        <loc>https://idolwave.org/off-page-seo.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 06 -->
+    <url>
+        <loc>https://idolwave.org/content-strategy.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 07 -->
+    <url>
+        <loc>https://idolwave.org/wordpress-seo.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 08 -->
+    <url>
+        <loc>https://idolwave.org/e-commerce-seo.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Services page 09 -->
+    <url>
+        <loc>https://idolwave.org/seo-consultancy.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Blogs page 01 -->
+    <url>
+        <loc>https://idolwave.org/web-development-blog.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Blogs page 02 -->
+    <url>
+        <loc>https://idolwave.org/seo-blog.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Blogs page 03 -->
+    <url>
+        <loc>https://idolwave.org/philanthropy.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Tools page 01 -->
+    <url>
+        <loc>https://idolwave.org/website-auditor.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Tools page 02 -->
+    <url>
+        <loc>https://idolwave.org/calculator.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Contact page -->
+    <url>
+        <loc>https://idolwave.org/contact.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Login page -->
+    <url>
+        <loc>https://idolwave.org/login.html</loc>
+        <lastmod>2024-10-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.0</priority>
+    </url>
+</urlset>

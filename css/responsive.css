@@ -191,7 +191,6 @@ final author end
 }
 
 /* wide mobile layout: */
-
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .market-menu-area{
 	display:none;

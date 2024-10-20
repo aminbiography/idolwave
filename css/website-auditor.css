@@ -1,0 +1,88 @@
+/*
+//////////////////////////////////////////////////////
+final author start
+//////////////////////////////////////////////////////
+Final Author @ Mohammad Aminul Islam
+//////////////////////////////////////////////////////
+final author end
+//////////////////////////////////////////////////////
+*/
+
+
+/* webanalytics main body styling */
+.analytics-bg {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eefafb;
+} 
+
+/* webanalytics main body styling */
+.webanalytics-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1200px;
+    gap: 20px;
+}
+.webanalytics-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+.webanalytics {
+    margin-bottom: 20px;
+    color: #333;
+}
+input[type="url"], input[type="phone"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button {
+    color: #FFF;
+    background: #448aff;
+    border: 2px solid #448aff;
+    padding: 14px 20px;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #448aff;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+  }
+  .button:hover {
+    box-shadow: inset 0 100px 0 0 #fff;
+    color: #444;
+  }
+/* remove default focus outline */
+.button:focus {
+    outline: none; 
+    box-shadow: inset 0 0 0 2px #448aff; /* custom focus style */
+  }
+.result {
+    margin-top: 20px;
+    display: none;
+}
+/* media queries for responsiveness */
+@media (min-width: 768px) {
+    .webanalytics-main-container {
+        flex-direction: row;
+    }
+}
+

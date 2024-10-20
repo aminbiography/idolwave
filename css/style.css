@@ -239,6 +239,15 @@ final author end
 body {
     overflow-x: hidden;
 }
+
+/* Prevent text selection */
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge */
+  user-select: none;         /* Non-prefixed version */
+}
+
 #particles-js {
     height: 100%;
     left: 0;
@@ -546,7 +555,7 @@ a:focus {
   background: #448aff;
   border: 2px solid #448aff;
   padding: 14px 20px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
